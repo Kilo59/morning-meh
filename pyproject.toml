@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "morning-meh"
+version = "0.0.1"
+description = "Tell me what's on meh.com"
+authors = ["Gabriel <gabriel59kg@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gazpacho = "^0.9"
+twilio = "^6.35.3"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+blue-chip = "^0.0.3"
+isort = "^4.3.21"
+pytest = "^5.3.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
