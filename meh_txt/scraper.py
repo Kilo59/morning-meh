@@ -1,6 +1,7 @@
 import contextlib
-import requests as r
+
 import bs4
+import requests as r
 
 
 def is_good_response(resp):

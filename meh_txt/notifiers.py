@@ -1,7 +1,7 @@
-from typing import Sequence, Union
 import abc
 import collections
 import dataclasses as dc
+from typing import Sequence, Union
 
 
 @dc.dataclass
@@ -28,3 +28,8 @@ class Notifier(abc.ABC):
 class SMSNotifier(Notifier):
     def notify(self, message):
         raise NotImplementedError
+
+
+class EmailNotifier(Notifier):
+    def notify(self, message):
+        pass
